@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,
+     initial-scale=1.0">
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+<header>
+    <div class="nav">
+        <div class="logo"><a href="#">AGREE</a></div>
+        <ul class="links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">services</a></li>
+            <li><a href="#">Contact</a></li>
+
+        </ul>
+        <a href="#" class="action_but">GO</a>
+        <div class="toggle_btn">
+            <i class="fas fa-bars"></i>
+        </div>
+    </div>
+    <div class="menu ">
+        <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">services</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#" class="action_but">GO</a></li>
+    </div>
+</header>
+<main>
+    <section id="hero">
+        <h1>welcam</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicin
+            g elit. Corporis, ipsam cumque necolestiae sed
+            </p>
+    </section>
+</main>
+<script>
+    const toggleBtn =document.querySelector('.toggle_btn')
+    const toggleBtnIcon =document.querySelector('.toggle_btn i')
+    const Menu=document.querySelector('.menu')
+
+    toggleBtn.onclick = function (){
+        Menu.classList.toggle('open')
+    }
+    
+    </script>
+
+</body>
+</html>
